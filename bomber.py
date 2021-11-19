@@ -1,4 +1,5 @@
-    print("""
+import requests
+
   /$$$$$$  /$$      /$$  /$$$$$$        /$$$$$$$   /$$$$$$  /$$      /$$ /$$$$$$$  /$$$$$$$$ /$$$$$$$ 
  /$$__  $$| $$$    /$$$ /$$__  $$      | $$__  $$ /$$__  $$| $$$    /$$$| $$__  $$| $$_____/| $$__  $$
 | $$  \__/| $$$$  /$$$$| $$  \__/      | $$  \ $$| $$  \ $$| $$$$  /$$$$| $$  \ $$| $$      | $$  \ $$
@@ -10,11 +11,9 @@
                                                                                                                                                                                                     
                         By : Criminal Anonymous  Army                                                                                              
     Note : I won't be responsible for any damage caused by this script, Use at your own risk
-""")
 
-import requests
 
-number=str(input(" Enter The Number : "))
+number=str(input(" Enter The Victim Number : "))
 
 amount=int(input(" Enter The Amount : "))
 
